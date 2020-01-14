@@ -39,7 +39,7 @@ class App extends Component {
           <About />
           <Projects />
           <hr/>
-        <div id="contact-scroll">
+        <div id="contact">
           <Contact />
         </div>
       </div>

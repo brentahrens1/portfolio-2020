@@ -9,7 +9,7 @@ const Navigation = props => (
             <div className="navbar-toggle__button">
                 <DrawerToggle click={props.drawerToggleClickHandler} />
             </div>
-            <div className="primary__logo"><a href="#contact-scroll">Let's Collaborate</a></div>
+            <div className="primary__logo"><a href="#contact">Let's Collaborate</a></div>
             <div className="spacer" />
             <div className="primary_navigation-items">
                 <ul>
