@@ -10,7 +10,7 @@ import Contact from './components/Contact/Contact';
 
 class App extends Component {
   state ={
-    sideDrawerOpen: false
+    sideDrawerOpen: false,
   }
 
   drawerToggleClickHandler = () => {
