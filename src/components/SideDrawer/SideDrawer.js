@@ -10,10 +10,7 @@ const sideDrawer = props => {
         <nav className={drawerClasses}>
             <div className="close" onClick={props.click}>&#10005;</div>
             <ul> 
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Git Hub</a></li>
+                <li><a href="https://github.com/brentahrens1" target="_blank">Git Hub</a></li>
                 <li><a href="#">Resume PDF</a></li>
             </ul>
         </nav>
