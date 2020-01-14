@@ -1,0 +1,73 @@
+.about {
+    width: 100%;
+    background-image: url("../../images/la.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-overlay {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.about-info {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about-profile {
+    display: block;
+    width: 25%;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.about-skills {
+    color: #b2b2b2;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+.about-title, .about-name {
+    text-align: center;
+    color: #fff;
+}
+
+.about-name {
+    margin-bottom: 5px;
+}
+
+.about-name a, .about-name a:visited {
+    color: #fff;
+}
+
+.about-title {
+    margin-top: 0;
+}
+
+.about-description {
+    color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+@media (max-width: 680px) {
+    .about-profile {
+        width: 11rem;
+    }
+
+    .about-skills {
+        width: 80%;
+    }
+
+    .about-description {
+        width: 95%;
+    }
+}

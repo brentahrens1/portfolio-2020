@@ -1,0 +1,91 @@
+.project {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 15px;
+    padding: 1rem;
+}
+
+.project__item {
+    width: 100%;
+}
+
+.project__item--img {
+    width: 100%;
+    max-width: 100%;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.project__item--img:active {
+    transform: translateY(4px);
+}
+
+.project__item--title, .project__item--skills, .project__item--description {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.project__item--title {
+    padding-bottom: 5px;
+}
+
+.project__item--title a, .project__item--title a:visited {
+    color: #000;
+}
+
+.project__item--skills {
+    margin-top: 0;
+}
+
+.project__item--description {
+    color: #a2a2a2;
+}
+
+.project__item--1 {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.project__item--2 {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+}
+
+.project__item--3 {
+    grid-column: 3 / 3;
+    grid-row: 1 / 1;
+}
+
+.project__item--4 {
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+}
+
+.project__item--5 {
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+}
+
+.project__item--6 {
+    grid-column: 3 / 3;
+    grid-row: 2 / 2;
+}
+
+.project__item--7 {
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+}
+
+@media (max-width: 680px) {
+    .project {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .project__item {
+        padding-bottom: 1rem;
+    }
+}
