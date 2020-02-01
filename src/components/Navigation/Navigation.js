@@ -15,6 +15,7 @@ const Navigation = props => (
                 <ul>
                     <li><a href="https://github.com/brentahrens1" target="_blank">Git Hub</a></li>
                     <li><a href="/">Resume PDF</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
