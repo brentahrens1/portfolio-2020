@@ -45,8 +45,8 @@
     text-transform: uppercase;
 }
 
-.primary_navigation-items a:hover, 
-.primary_navigation-items a:active {
+.primary_navigation-items a:hover, .primary__logo a:hover, 
+.primary_navigation-items a:active, .primary__logo a:active {
     color: green;
 }
 
