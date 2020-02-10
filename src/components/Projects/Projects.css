@@ -8,6 +8,7 @@
 
 .project__item {
     width: 100%;
+    padding-top: 1rem;
 }
 
 .project__item--img {
