@@ -20,6 +20,7 @@
     left: 0;
     font-size: 2rem;
     padding: .6rem;
+    cursor: pointer;
 }
 
 .side-drawer ul {
@@ -42,7 +43,7 @@
 
 .side-drawer a:hover, 
 .side-drawer a:active {
-    color: #000;
+    color: green;
 }
 
 .side-drawer.open {
