@@ -15,6 +15,7 @@
 
 .primary__logo {
     margin-left: 1rem;
+    cursor: pointer;
 }
 
 .primary__logo a {

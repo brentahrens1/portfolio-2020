@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Navigation/Navigation.css';
-import PDF from '../../PDF/BrentResume.docx';
+import PDF from '../../PDF/Brent_Ahrens_Resume.pdf';
 
 import DrawerToggle from '../SideDrawer/DrawerToggle'
 
