@@ -15,7 +15,7 @@ const Navigation = props => (
             <div className="primary_navigation-items">
                 <ul>
                     <li><a href="https://github.com/brentahrens1" target="_blank" rel="noopener noreferrer">Git Hub</a></li>
-                    <li><a href={PDF} target="_blank" rel="noopener noreferrer">Download Resume</a></li>
+                    <li><a href={PDF} target="_blank" rel="noopener noreferrer">Resume PDF</a></li>
                 </ul>
             </div>
         </nav>
