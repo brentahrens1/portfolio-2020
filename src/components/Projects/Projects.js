@@ -54,12 +54,6 @@ const Projects = props => (
             <p className="project__item--skills"><i>Javascript / CSS / HTML / Squarespace</i></p>
             <p className="project__item--description">A freelance project for a Florida based company that buys unused diabetic test strips. I built the site using custom code blocks within the Squarespace framework.</p>
         </div>
-        <div className="project__item project__item--8">
-            <a href="https://brentahrens1.github.io/capitals-slot-machine/" target="_blank" rel="noopener noreferrer"><img src={Caps} alt="slot machine" className="project__item--img"></img></a>
-            <h3 className="project__item--title"><a href="https://brentahrens1.github.io/capitals-slot-machine/" target="_blank">Slot Machine</a></h3>
-            <p className="project__item--skills"><i>Javascript / CSS / HTML</i></p>
-            <p className="project__item--description">A Capitals hockey theme game. I completed this project during my Immersive Web Development course, implementing DRY functional javascript.</p>
-        </div>
     </div>
 )
 

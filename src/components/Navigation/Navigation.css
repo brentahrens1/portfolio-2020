@@ -23,6 +23,7 @@
     text-decoration: none;
     font-size: 16px;
     text-transform: uppercase;
+    transition: font-size .3s;
 }
 
 .spacer {
@@ -44,6 +45,11 @@
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
+    transition: font-size .3s;
+}
+
+.primary__logo a:hover, .primary_navigation-items a:hover {
+    font-size: 16.2px;
 }
 
 .primary_navigation-items a:hover, .primary__logo a:hover, 
