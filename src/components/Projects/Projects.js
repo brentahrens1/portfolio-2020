@@ -8,7 +8,6 @@ import LastLight from '../../images/last-light.png';
 import MDLL from '../../images/mdll.png';
 import BarMarilou from '../../images/bar-marilou.png';
 import Breslin from '../../images/breslin.png';
-import Caps from '../../images/caps.png';
 
 const Projects = props => (
     <div className="project">

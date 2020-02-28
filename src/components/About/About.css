@@ -33,6 +33,7 @@
     width: 50%;
     margin: 0 auto;
     padding-bottom: 1rem;
+    animation: fade-in 1s ease-in;
 }
 
 .about-title, .about-name {
@@ -58,6 +59,7 @@
     width: 70%;
     margin: 0 auto;
     padding-bottom: 2rem;
+    animation: fade-in 1s ease-in;
 }
 
 @media (max-width: 680px) {
@@ -81,5 +83,14 @@
     }
     to {
         transform: translateY(0px);
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }
