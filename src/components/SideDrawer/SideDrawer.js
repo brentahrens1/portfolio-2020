@@ -1,6 +1,6 @@
 import React from 'react';
 import "../SideDrawer/SideDrawer.css";
-import PDF from "../../PDF/Brent_Ahrens_Resume.pdf";
+import PDF from "../../PDF/BrentAhrens_Resume.pdf";
 
 const sideDrawer = props => {
         let  drawerClasses = 'side-drawer'
