@@ -45,7 +45,7 @@ const Projects = props => (
             <a href="https://www.barmarilou.com/" target="_blank" rel="noopener noreferrer"><img src={BarMarilou} alt="bar marilou" className="project__item--img"></img></a>
             <h3 className="project__item--title"><a href="https://www.barmarilou.com/" target="_blank" rel="noopener noreferrer">Bar Marilou</a></h3>
             <p className="project__item--skills"><i>Javascript / CSS / HTML / Squarespace</i></p>
-            <p className="project__item--description">A spirited cocktail bar in the heart of New Orleans. In collaboration with our design team, I  the site using custom code blocks within the Squarespace framework.</p>
+            <p className="project__item--description">A spirited cocktail bar in the heart of New Orleans. In collaboration with our design team, I built the site using custom code blocks within the Squarespace framework.</p>
         </div>
         <div className="project__item project__item--7">
             <a href="https://www.diabeticteststrips4cash.com/" target="_blank" rel="noopener noreferrer"><img src={DiabeticStrips} alt="db medical supplies" className="project__item--img"></img></a>
