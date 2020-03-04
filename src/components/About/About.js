@@ -10,7 +10,7 @@ const About = props => (
                 <img className="about-profile" src={Profile} alt="profile"></img>
                 <h1 className="about-name"><a href="mailto:brentholmesahrens@gmail.com" target="_blank" rel="noopener noreferrer">Brent Ahrens</a></h1>
                 <h2 className="about-title">Front End Web Developer</h2>
-                <h4 className="about-skills">React | Vue | Javascript | CSS3 | SASS | CSS Grid | FlexBox | HTML5 | RESTful APIs | BEM | Github | Node.js | NPM | SEO | Wordpress | Squarespace | Wagtail | Google Analytics | Gatsby | Command Line | CRUD</h4>
+                <h4 className="about-skills">React | Vue | Javascript | CSS3 | SASS | SCSS | Flexbox | CSS Grid | HTML5 | Node.js | NPM | RESTful APIs | BEM | Github | SEO | Wordpress | Squarespace | Wagtail | Google Analytics | Gatsby | Command Line | CRUD | Agile</h4>
                 <p className="about-description">I’m a front-end developer eager to work in a demanding and dynamic role that compliments my passion for building responsive and functional websites and leverages my extensive experience working in teams.</p>
             </div>
         </div>
