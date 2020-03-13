@@ -3,6 +3,7 @@
     background-image: url("../../images/la.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .about-overlay {
@@ -72,6 +73,9 @@
 
     .about-description {
         width: 100%;
+    }
+    .about {
+        background-attachment: scroll;
     }
 }
 
