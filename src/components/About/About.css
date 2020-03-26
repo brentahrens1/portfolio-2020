@@ -63,6 +63,12 @@
     animation: fade-in 1s ease-in;
 }
 
+@media (max-width: 900px) {
+    .about-profile {
+        width: 11rem;
+    }
+}
+
 @media (max-width: 680px) {
     .about-profile {
         width: 11rem;
