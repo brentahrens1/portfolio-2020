@@ -40,6 +40,20 @@
     margin: 0.5rem 0;
 }
 
+.side-drawer li::after {
+    content: '';
+    display: block;
+    background: #000;
+    width: 0;
+    height: 2px;
+    transition: width .3s;
+    margin-top: .2rem;
+}
+
+.side-drawer li:hover::after {
+    width: 100%;
+}
+
 .side-drawer a {
     color: #000;
     text-decoration: none;
