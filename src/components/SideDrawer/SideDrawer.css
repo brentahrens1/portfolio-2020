@@ -110,4 +110,7 @@
     .navbar-toggle__button {
         display: none;
     }
+    .backdrop {
+        display: none;
+    }
 }
