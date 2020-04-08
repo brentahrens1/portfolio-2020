@@ -38,7 +38,6 @@ class App extends Component {
         </div>
           <About />
           <Projects />
-          <hr/>
         <div id="contact">
           <Contact />
         </div>

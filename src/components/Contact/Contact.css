@@ -1,8 +1,11 @@
 .contact {
     text-align: center;
+    padding-top: 2rem;
     padding-bottom: 2rem;
+    background: #111111;
+    color: #fff;
 }
 
 .contact a, .contact a:visited {
-    color: #000;
+    color: #fff;
 }
